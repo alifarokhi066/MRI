@@ -73,3 +73,54 @@ The model's evaluation module bypasses simple accuracy scores, deploying a full 
 Before initializing the notebook script, ensure your computing environment has the following dependencies configured:
 ```bash
 pip install tensorflow opencv-python matplotlib seaborn scikit-plot scikit-learn
+
+## 📊 Evaluation Metrics
+
+- Accuracy, Loss (Training & Validation)  
+- Confusion Matrix  
+- ROC Curve and AUC per class  
+- Precision-Recall Curve  
+- F1-Score, Precision, Recall per class  
+- Learning Curve  
+- Radar Chart for multi-class comparison
+## 🛠️ Tools and Libraries
+
+- **Python 3.8+**  
+- **TensorFlow / Keras** (CNN model)  
+- **OpenCV** (image preprocessing)  
+- **NumPy, Pandas**  
+- **Matplotlib, Seaborn** (visualizations)  
+- **Scikit-learn** (train_test_split, classification_report, confusion_matrix, roc_curve, auc, LabelEncoder)  
+- **Scikit-plot** (ROC curves)  
+- **Pickle** (saving training history)
+## 📌 Project Status (based on provided code)
+
+✅ Simulated MRI dataset with realistic patterns (tumor, stroke, healthy)  
+✅ Complete preprocessing pipeline (normalization + padding + resizing)  
+✅ CNN with 4 convolutional blocks and heavy regularization (BatchNorm + Dropout)  
+✅ Training with EarlyStopping and ReduceLROnPlateau  
+✅ Evaluation metrics:  
+   - Accuracy & Loss curves  
+   - Confusion Matrix  
+   - ROC curves per class (AUC ≈ 0.88 – 0.98)  
+   - Precision-Recall curves  
+   - F1-Score, Precision, Recall per class  
+   - Learning Curve and Radar Chart  
+✅ Model saved as `mri_classification_model.h5`  
+✅ Prediction on new samples with confidence scores  
+
+## 🧑‍🔬 Author
+
+**Ali Farrokhi**  
+- MSc in Biomedical Engineering – Bioelectrical Engineering, Razi University, Kermanshah  
+- Specialization: Medical image processing, EEG/ECG/EMG signal analysis, Deep Learning  
+- 🔗 **LinkedIn:** [linkedin.com/in/ali-farokhi-55b999416](https://www.linkedin.com/in/ali-farokhi-55b999416)
+
+## 📧 Contact
+
+For collaboration, suggestions, or questions:  
+**ali.s.farokhi@gmail.com**
+**www.linkedin.com/in/ali-farokhi-55b999416**
+---
+
+**🌟 If you find this repository useful, please don’t forget to give it a star (⭐).**
